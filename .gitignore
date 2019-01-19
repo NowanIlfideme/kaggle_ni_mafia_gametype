@@ -1,0 +1,15 @@
+
+# My local stuff
+.vscode
+env/
+
+*__pycache__
+*.ipynb_checkpoints
+
+# Build stuff
+*.egg-info
+src/dist
+src/build
+
+# Data folders
+data
