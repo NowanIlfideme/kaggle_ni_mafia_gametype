@@ -11,6 +11,7 @@ setup(
     install_requires=[
         'numpy', 'pandas', 
         'scikit-learn', 
+        'joblib', 
     ]
     # TODO: Add requirements and such
 )
