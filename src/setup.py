@@ -12,6 +12,7 @@ setup(
         'numpy', 'pandas', 
         'scikit-learn', 
         'joblib', 
+        'jupyter', 
     ]
     # TODO: Add requirements and such
 )
