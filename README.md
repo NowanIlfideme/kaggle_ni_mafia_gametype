@@ -39,8 +39,8 @@ I set the data to be in the directories:
 * Label map: `data/label_map.csv`.
 
 In order for the loading funtions from `bay12_solution_eposts.prepare` to work, you should 
-set them there. However, you can just set the `path_data` variable in the function call (if the path is 
-somewhere else) or even change the `DEFAULT_PATH_DATA` variable.
+place these files and folders there. Alternatively, you can just set the `path_data` variable in the function call (if the path is 
+somewhere else) or even change the `DEFAULT_PATH_DATA` variable in the library.
 
 ## Running the notebooks
 
