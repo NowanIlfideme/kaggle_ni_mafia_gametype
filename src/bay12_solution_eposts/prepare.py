@@ -38,6 +38,7 @@ def load_dfs(which='train', path_data=DEFAULT_DATA_PATH):
 
     # clean up `post` df with proper quotes
     post['quotes'] = post['quotes'].apply(quote_str_to_list)
+    post['text'] = post['text'].astype(str)
 
     return post, thread
 
