@@ -1,6 +1,7 @@
 name: kaggle-mafia-gametype
 channels:
   - defaults
+  - conda-forge 
 dependencies:
   - asn1crypto=0.24.0=py37_0
   - backcall=0.1.0=py37_0
@@ -87,6 +88,7 @@ dependencies:
   - setuptools=40.6.3=py37_0
   - sip=4.19.8=py37h6538335_0
   - six=1.12.0=py37_0
+  - spacy=2.0.18=py37h6538335_1000
   - sqlite=3.26.0=he774522_0
   - terminado=0.8.1=py37_1
   - testpath=0.4.2=py37_0
@@ -109,3 +111,4 @@ dependencies:
     - mccabe==0.6.1
     - pycodestyle==2.3.1
     - pyflakes==1.6.0
+    - https://github.com/explosion/spacy-models/releases/download/en_core_web_lg-2.0.0/en_core_web_lg-2.0.0.tar.gz
